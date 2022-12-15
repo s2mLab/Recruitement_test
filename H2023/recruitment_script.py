@@ -8,17 +8,11 @@ This simple example is a good place to start investigating bioptim as it describ
 During the optimization process, the graphs are updated real-time (even though it is a bit too fast and short to really
 appreciate it). Finally, once it finished optimizing, it animates the model using the optimal solution.
 """
-
-import biorbd_casadi as biorbd
 from bioptim import (
     OptimalControlProgram,
     DynamicsFcn,
-    Dynamics,
-    Bounds,
     QAndQDotBounds,
-    InitialGuess,
     ObjectiveFcn,
-    Objective,
     CostType,
     Solver,
     ControlType,
@@ -26,10 +20,7 @@ from bioptim import (
     DynamicsList,
     BoundsList,
     InitialGuessList,
-ConstraintList,
-ConstraintFcn,
-BiorbdModel,
-Node
+    BiorbdModel,
 )
 
 
