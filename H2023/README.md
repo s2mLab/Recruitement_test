@@ -1,7 +1,7 @@
 # Recruitment test
 A pdf report should be given to your contact person when the test is completed.
 
-- Follow the instructions to install [bioptim](https://github.com/pyomeca/bioptim) on your computer.
+- Follow the instructions to install [bioptim](https://github.com/pyomeca/bioptim) (3.0 at least) on your computer .
 - Download the entire repository and run the recruitment_script.py script on your computer. What is the error message displayed in your console.
 - A bug is hidden in the script; find it, modify it, to make the script work, explain in one or two sentences why it did not work (hint: the file bioptim/misc/enums.py will be useful)
 - Modify the code to minimize the time of the optimal problem. Add a screenshot of the code changes in the report and the resulting time of the optimal control program. (hint: the file bioptim/examples/optimal_time_ocp/pendulum_min_time_Lagrange.py will be useful)
