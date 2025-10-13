@@ -1,6 +1,6 @@
 # Recruitment test
-- Install [bioptim](https://github.com/pyomeca/bioptim) (a Linux environment is highly recommended)
-- Modify the [example](https://github.com/pyomeca/bioptim/blob/master/bioptim/examples/getting_started/pendulum.py) bioptim/examples/getting_started/pendulum.py as follows:
+- Install the last version of [bioptim](https://github.com/pyomeca/bioptim) by following the instructions: *Installing from the sources* (a Linux environment is highly recommended)
+- Modify the [example](https://github.com/pyomeca/bioptim/blob/master/bioptim/examples/getting_started/basic_ocp.py) bioptim/examples/getting_started/basic_ocp.py as follows:
 include a double pendulum with one y-translation (range -2 to 2) and two x-rotations (range -10 pi to 10 pi). 
   - Compare files: bioptim/examples/getting_started/modelspendulum.bioMod and
   bioptim/examples/getting_started/models/double_pendulum.bioMod to create the requested model. 
